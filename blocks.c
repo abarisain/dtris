@@ -112,7 +112,7 @@ void freeBlock(blockDescriptor* block) {
 }
 
 blockDescriptor* newBlock(int height, int width) {
-	blockDescriptor* block = malloc(sizeof(block));
+	blockDescriptor* block = malloc(sizeof(blockDescriptor));
 	block->x = 0;
 	block->y = 0;
 	block->width = width;
